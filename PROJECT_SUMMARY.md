@@ -1,14 +1,14 @@
-# HR Analytics Project Summary
+# IBM HR Analytics: Comprehensive Attrition Analysis Project Summary
 
 ## 🎯 Project Overview
-This project analyzes employee attrition patterns using IBM's HR Analytics dataset to identify factors that contribute to employee turnover and provide actionable insights for HR decision-making.
+This comprehensive project analyzes employee attrition patterns using IBM's HR Analytics dataset to identify critical factors that contribute to employee turnover. The analysis covers multiple dimensions including demographics, job satisfaction, performance metrics, compensation, and career growth to provide actionable insights for HR decision-making and employee retention strategies.
 
 ## 📊 Key Insights
 
 ### 1. **Attrition Rate Analysis**
-- Overall attrition rate in the dataset
-- Department-wise attrition patterns
-- Role-specific attrition trends
+- Overall attrition rate: 16.1% (237 out of 1,470 employees)
+- Department-wise attrition patterns: R&D (961), Sales (446), HR (63)
+- Role-specific attrition trends across different job levels
 
 ### 2. **Critical Factors Identified**
 - **Job Satisfaction**: Strong correlation with attrition
@@ -33,8 +33,8 @@ This project analyzes employee attrition patterns using IBM's HR Analytics datas
 
 ### Raw Data
 - **File**: `data/Raw/Data Raw.csv`
-- **Size**: 223KB, 1,472 records
-- **Content**: Original IBM HR Analytics dataset
+- **Size**: 223KB, 1,470 records, 35 features
+- **Content**: Original IBM HR Analytics dataset with comprehensive employee information
 
 ### Cleaned Data
 - **File**: `data/Cleaned/Cleaned Data.xlsx`
@@ -50,7 +50,10 @@ This project analyzes employee attrition patterns using IBM's HR Analytics datas
 
 ### Final Analysis
 - **File**: `Final Data file with Final Analysis.xlsx`
-- **Content**: Complete analysis with insights and recommendations
+- **Content**: Comprehensive multi-sheet analysis including:
+  - Demographic Insights, Employee Satisfaction, Performance Analysis
+  - Compensation and Perks, Role and Department Analysis
+  - Education and Skills, Experience & Growth, EDA Dashboard
 
 ## 🛠️ Technical Stack
 - **Python**: Primary analysis language
@@ -60,13 +63,14 @@ This project analyzes employee attrition patterns using IBM's HR Analytics datas
 - **Kaggle**: Dataset source
 
 ## 📋 Dataset Features
-The analysis covers 35+ features including:
-- Demographics (Age, Gender, Education, Marital Status)
-- Job Information (Department, Job Role, Years in Company)
-- Work Environment (Job Satisfaction, Work-Life Balance)
-- Performance Metrics (Performance Rating, Years Since Last Promotion)
-- Compensation & Benefits
-- Work-Life Factors (Distance, Business Travel, Overtime)
+The analysis covers 35 comprehensive features including:
+- **Demographics**: Age, Gender, Education, Marital Status, Education Field
+- **Job Information**: Department (R&D, Sales, HR), Job Role, Job Level, Years in Company
+- **Work Environment**: Job Satisfaction, Work-Life Balance, Environment Satisfaction, Job Involvement
+- **Performance Metrics**: Performance Rating, Years Since Last Promotion, Training Times
+- **Compensation**: Monthly Income, Daily Rate, Hourly Rate, Percent Salary Hike
+- **Career Factors**: Total Working Years, Years in Current Role, Years with Current Manager
+- **Work-Life Factors**: Distance from Home, Business Travel, Overtime, Stock Option Level
 
 ## 🎯 Recommendations
 Based on the analysis, key recommendations include:
@@ -78,7 +82,7 @@ Based on the analysis, key recommendations include:
 
 ## 📊 Repository Structure
 ```
-hr-analytics-attrition/
+ibm-hr-analytics-comprehensive-attrition-analysis/
 ├── data/
 │   ├── Raw/Data Raw.csv
 │   └── Cleaned/
@@ -96,7 +100,7 @@ hr-analytics-attrition/
 ```
 
 ## 🔗 Repository Link
-**GitHub**: https://github.com/Yashu278/hr-analytics-attrition
+**GitHub**: https://github.com/Yashu278/ibm-hr-analytics-comprehensive-attrition-analysis
 
 ---
 *This project demonstrates comprehensive HR analytics capabilities and provides actionable insights for improving employee retention strategies.*

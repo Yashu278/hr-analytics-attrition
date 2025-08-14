@@ -1,8 +1,8 @@
-# HR Analytics: Employee Attrition Analysis
+# IBM HR Analytics: Comprehensive Employee Attrition Analysis
 
 ## 📊 Project Overview
 
-This project analyzes employee attrition patterns using IBM's HR Analytics dataset to identify factors that contribute to employee turnover and provide actionable insights for HR decision-making.
+This comprehensive project analyzes employee attrition patterns using IBM's HR Analytics dataset to identify critical factors that contribute to employee turnover. The analysis covers multiple dimensions including demographics, job satisfaction, performance metrics, compensation, and career growth to provide actionable insights for HR decision-making and employee retention strategies.
 
 ## 🎯 Project Objectives
 
@@ -15,10 +15,10 @@ This project analyzes employee attrition patterns using IBM's HR Analytics datas
 ## 📁 Project Structure
 
 ```
-HR-Analytics/
+IBM-HR-Analytics/
 ├── data/
 │   ├── Raw/
-│   │   └── Data Raw.csv              # Original raw dataset
+│   │   └── Data Raw.csv              # Original IBM HR Analytics dataset (1,470 employees)
 │   ├── Cleaned/
 │   │   ├── Cleaned Data.xlsx         # Cleaned and processed data
 │   │   └── Refined with EDA.xlsx     # Data with EDA insights
@@ -26,7 +26,7 @@ HR-Analytics/
 ├── Photos/
 │   ├── EDA.png                       # Exploratory Data Analysis visualizations
 │   └── Whole file.png                # Complete dataset overview
-├── Final Data file with Final Analysis.xlsx  # Comprehensive analysis results
+├── Final Data file with Final Analysis.xlsx  # Comprehensive multi-sheet analysis
 ├── download_dataset.py               # Script to download dataset from Kaggle
 └── README.md                         # Project documentation
 ```
@@ -77,21 +77,26 @@ python download_dataset.py
 - **Whole file.png**: Complete dataset overview and summary statistics
 
 ### 4. Final Analysis (`Final Data file with Final Analysis.xlsx`)
-- Complete analysis results including:
-  - Statistical summaries
-  - Correlation analysis
-  - Attrition patterns
-  - Key insights and recommendations
+- Comprehensive multi-sheet analysis including:
+  - **Demographic Insights**: Age distribution and demographic patterns
+  - **Employee Satisfaction**: Job satisfaction and work-life balance analysis
+  - **Performance**: Performance ratings and metrics correlation
+  - **Compensation and Perks**: Income vs attrition analysis
+  - **Role and Department Analysis**: Department-wise insights
+  - **Education and Skills**: Education relation with skills
+  - **Experience & Growth**: Career progression analysis
+  - **EDA Dashboard**: Interactive dashboard with key metrics
 
 ## 🔍 Key Findings
 
-The analysis reveals several important factors contributing to employee attrition:
+The comprehensive analysis of 1,470 employees reveals several critical factors contributing to employee attrition (16.1% attrition rate):
 
-1. **Job Satisfaction**: Employees with lower job satisfaction scores are more likely to leave
-2. **Work-Life Balance**: Poor work-life balance significantly impacts retention
-3. **Career Growth**: Limited advancement opportunities correlate with higher attrition
-4. **Compensation**: Salary dissatisfaction is a major factor in employee turnover
-5. **Department and Role**: Certain departments and job roles show higher attrition rates
+1. **Job Satisfaction & Work-Life Balance**: Strong correlation between satisfaction scores and retention
+2. **Compensation Impact**: Income levels significantly influence attrition decisions
+3. **Career Growth Opportunities**: Limited advancement and promotion opportunities drive turnover
+4. **Department-Specific Patterns**: Research & Development (961 employees) and Sales (446 employees) show different attrition patterns
+5. **Performance & Experience**: Performance ratings and years of experience correlate with retention
+6. **Demographic Factors**: Age, education, and marital status impact attrition likelihood
 
 ## 📊 Visualizations
 
@@ -113,12 +118,15 @@ The project includes comprehensive visualizations covering:
 
 ## 📋 Dataset Information
 
-The IBM HR Analytics Attrition dataset contains information about employees including:
-- Demographics (Age, Gender, Education, etc.)
-- Job-related information (Department, Job Role, Years in Company, etc.)
-- Work environment factors (Job Satisfaction, Work-Life Balance, etc.)
-- Performance metrics (Performance Rating, Years Since Last Promotion, etc.)
-- Attrition status (Yes/No)
+The IBM HR Analytics Attrition dataset contains comprehensive information about 1,470 employees across 35 features including:
+- **Demographics**: Age, Gender, Education, Marital Status, Education Field
+- **Job Information**: Department (R&D, Sales, HR), Job Role, Job Level, Years in Company
+- **Work Environment**: Job Satisfaction, Work-Life Balance, Environment Satisfaction, Job Involvement
+- **Performance Metrics**: Performance Rating, Years Since Last Promotion, Training Times
+- **Compensation**: Monthly Income, Daily Rate, Hourly Rate, Percent Salary Hike
+- **Career Factors**: Total Working Years, Years in Current Role, Years with Current Manager
+- **Work-Life Factors**: Distance from Home, Business Travel, Overtime, Stock Option Level
+- **Attrition Status**: Yes/No (237 employees left, 1,233 stayed)
 
 ## 🤝 Contributing
 
@@ -134,8 +142,8 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 ## 👨‍💻 Author
 
-**Your Name**
-- GitHub: [@yourusername](https://github.com/yourusername)
+**Yashu278**
+- GitHub: [@Yashu278](https://github.com/Yashu278)
 
 ## 🙏 Acknowledgments
 
